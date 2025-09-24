@@ -117,7 +117,7 @@ Both models maintain high performance on unseen data, confirming stability.
 ## Insights
 
 - Enhanced TF-IDF features (ngrams + sublinear TF) are effective for sentiment classification.
-- SVM slightly outperforms Logistic Regression, but both are strong baselines.
+- Logistic Regression slightly outperforms SVM, but both are strong baselines.
 - Accuracy, precision, recall, and F1-scores are consistently high (>89%), showing that traditional ML models still work well for text classification tasks.
 
 ## Conclusion
@@ -133,4 +133,4 @@ The results confirm that SVM and Logistic Regression can serve as strong baselin
 
 
 ## Author
-$$Srijani Das$$
+Srijani Das
