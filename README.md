@@ -30,19 +30,20 @@ The dataset was preprocessed by cleaning HTML tags, special characters, and extr
 
 ## 📝 Text Representation  
 
-Text is converted into numerical features using **TF-IDF (Term Frequency – Inverse Document Frequency)**:  
+**TF-IDF (Term Frequency – Inverse Document Frequency)** converts text into numerical features for machine learning:
 
-- TF measures how often a word appears in a review:  
+- **TF (Term Frequency):** how often a word appears in a review:  
   TF(word) = (number of times word appears) / (total words in review)  
-- IDF measures how unique a word is across all reviews:  
+- **IDF (Inverse Document Frequency):** how unique a word is across all reviews:  
   IDF(word) = log(total number of reviews / number of reviews containing the word)  
-- TF-IDF = TF × IDF, highlighting words frequent in a review but rare across all reviews  
+- **TF-IDF:** TF × IDF, giving higher weight to words frequent in a review but rare across all reviews  
 
 Additional Enhancements Applied:  
 - Ngrams: unigrams, bigrams, trigrams (`ngram_range=(1,3)`) to capture context and phrase-level sentiment patterns.
 - Vocabulary limited to top 30,000 words  
 - Sublinear TF scaling (`log(1+tf)`)  to reduce the impact of extremely frequent words.
 
+This representation allows the model to focus on the most informative words in each review.
 ---
 
 ## 🧩 Models Implemented  
