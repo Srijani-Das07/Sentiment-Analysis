@@ -36,7 +36,7 @@ The dataset was preprocessed by cleaning HTML tags, special characters, and extr
   TF(word) = (number of times word appears) / (total words in review)  
 - **IDF (Inverse Document Frequency):** how unique a word is across all reviews:  
   IDF(word) = log(total number of reviews / number of reviews containing the word)  
-- **TF-IDF:** TF × IDF, giving higher weight to words frequent in a review but rare across all reviews  
+- **TF-IDF:** TF × IDF, gives higher weight to words frequent in a review but rare across all reviews  
 
 Additional Enhancements Applied:  
 - Ngrams: unigrams, bigrams, trigrams (`ngram_range=(1,3)`) to capture context and phrase-level sentiment patterns.
