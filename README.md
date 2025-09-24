@@ -49,12 +49,14 @@ Additional Enhancements Applied:
 
 **1. Logistic Regression**  
 - Max iterations: 2000  
-- Random state: 42  
+- Random state: 42
+
 Logistic Regression provides probabilistic outputs and serves as a strong baseline for text classification.
 
 **2. Linear Support Vector Machine (SVM)**  
 - Max iterations: 5000  
-- Random state: 42  
+- Random state: 42
+
 SVM is effective in high-dimensional spaces like TF-IDF features and also serves as a robust baseline.
 
 ---
@@ -153,4 +155,5 @@ This project demonstrates a complete pipeline for sentiment classification:
 
 ## 👤 Author  
 
-**Srijani Das**["(https://github.com/Srijani-Das07)"]
+[Srijani Das](https://github.com/Srijani-Das07)
+
