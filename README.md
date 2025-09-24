@@ -39,9 +39,9 @@ Text is converted into numerical features using **TF-IDF (Term Frequency – Inv
 - TF-IDF = TF × IDF, highlighting words frequent in a review but rare across all reviews  
 
 Additional Enhancements Applied:  
-- Ngrams: unigrams, bigrams, trigrams (`ngram_range=(1,3)`)  
+- Ngrams: unigrams, bigrams, trigrams (`ngram_range=(1,3)`) to capture context and phrase-level sentiment patterns.
 - Vocabulary limited to top 30,000 words  
-- Sublinear TF scaling (`log(1+tf)`)
+- Sublinear TF scaling (`log(1+tf)`)  to reduce the impact of extremely frequent words.
 
 ---
 
