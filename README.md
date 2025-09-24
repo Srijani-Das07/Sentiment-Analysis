@@ -80,7 +80,7 @@ Models were compared using multiple metrics on validation and test sets:
 - Logistic Regression (Green)  
   ![Logistic Regression Validation Confusion Matrix and metrics](images/lr_cm_metrics.png)  
 - SVM (Blue)  
-  ![SVM Validation Confusion Matrix and metrics](images/svr_cm_metrics.png)  
+  ![SVM Validation Confusion Matrix and metrics](images/svm_cm_metrics.png)  
 
 ## Training vs Validation Performance
 
