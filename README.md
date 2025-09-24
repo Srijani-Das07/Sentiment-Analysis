@@ -42,8 +42,9 @@ Additional Enhancements Applied:
 - Ngrams: unigrams, bigrams, trigrams (`ngram_range=(1,3)`) to capture context and phrase-level sentiment patterns.
 - Vocabulary limited to top 30,000 words  
 - Sublinear TF scaling (`log(1+tf)`)  to reduce the impact of extremely frequent words.
-
+  
 This representation allows the model to focus on the most informative words in each review.
+
 ---
 
 ## 🧩 Models Implemented  
