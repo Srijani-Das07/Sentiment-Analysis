@@ -18,9 +18,9 @@ The dataset was preprocessed by cleaning HTML tags, special characters, and extr
 ## Data Preprocessing 
 
 **Text Cleaning:**
-- Remove HTML tags and special characters.
-- Convert all text to lowercase.
-- Remove extra spaces.
+- Removed HTML tags and special characters.
+- Converted all text to lowercase.
+- Removed extra spaces.
 
 **Label Encoding:**
 - positive → 1  
@@ -121,11 +121,15 @@ Training and validation bars include exact scores for clarity.
 | Logistic Regression | 0.9069   | 0.9022    | 0.9128 | 0.9074  |
 | SVM                 | 0.9101   | 0.9102    | 0.9100 | 0.9101  |
 
+**Metrics on Test Set:**  
+<p align="left">
+  <img src="images/lr_svm_test_result_metrics.png" alt="Test Metrics Comparison" width="400"/>  
+</p>  
+
 **Confusion Matrices on Test Set:**  
 <p align="left">
   <img src="images/test_cm.png" alt="Test Confusion Matrix" width="400"/>  
-  <img src="images/lr_svm_test_result_metrics.png" alt="Test Metrics Comparison" width="400"/>  
-</p>
+</p>  
 
 Both models maintain high performance on unseen data, confirming stability.
 
